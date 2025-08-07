@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+nav a {
+  text-decoration: overline;
+  color: white;
+  padding: 4px 8px;
+}
+nav a:hover {
+  background-color: red;
+  border-radius: 999px;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+body {
+  background-color: azure;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  color: blueviolet;
+  text-align: center;
+  text-shadow: 2px 2px 5px;
+  font-size: xxx-large;
+}
+nav {
+  align-items: baseline;
+  background-color: rgb(51, 49, 49);
+  text-align: left;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+}
+.navitems {
+  display: flex;
+  gap: 3rem;
+}
+form {
+  background-color: aqua;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+aside {
+  background-color: bisque;
+  padding: 5px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+}
+main {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+footer {
+  background-color: rgb(51, 49, 49);
+  border-radius: 15px;
+  padding: 2rem;
+}
+footer a {
+  text-decoration: underline;
+  color: white;
+  padding: 4px 8px;
+}
+footer a:hover {
+  background-color: red;
+  border-radius: 999px;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+article {
+  background-color: rebeccapurple;
+  text-align: center;
+}

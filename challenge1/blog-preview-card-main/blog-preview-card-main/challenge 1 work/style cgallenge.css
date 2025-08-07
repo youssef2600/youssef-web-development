@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  background-color: hsl(47, 88%, 63%);
+  align-items: center;
+  flex-direction: column;
+  font-family: "ff";
+}
+#aa {
+  background-color: hsl(0, 0%, 100%);
+  align-content: center;
+  margin: 2rem 28rem 2rem 28rem;
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 15px;
+  border-color: black;
+  border-style: solid;
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+}
+#bb {
+  border-radius: 50px;
+}
+#lrn {
+  text-decoration: none;
+  padding: 10px;
+  background-color: hsl(47, 88%, 63%);
+  margin: 10px;
+  border-radius: 20px;
+}
+#gg {
+  display: flex;
+  font-size: large;
+  gap: 5px;
+}
+@font-face {
+  font-family: ff;
+  src: url(Figtree-VariableFont_wght.ttf);
+}
