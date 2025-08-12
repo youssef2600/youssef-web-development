@@ -1,0 +1,25 @@
+algorithme:sentance read
+debut
+repeter:
+  ecrire("give a sentance")
+  lire(a)
+jusqu'a(a(long(a)-1)==".")
+m=0
+v=0
+c=long(a)
+pour i de 0 à long(a) faire
+  si a(i)==" "faire
+    m=m+1
+  sinon si a(i)€["a","e","i","o","u","A","E","I","O","U"]faire
+    v=v+1
+  finsi
+finpour
+pour j de 0 à long(a) faire
+  si a(i)==" "faire
+    c=c-1
+  finsi
+finpour
+ecrire("il y a",m+1,"mots")
+ecrire("il y a",v,"voyelles")
+crire("il y a",c,"caracteres")
+fin
